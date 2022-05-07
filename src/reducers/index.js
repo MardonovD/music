@@ -1,4 +1,5 @@
 import { combineReducers } from "redux";
+
 const songList = [
   {
     name: "Uzbek",
@@ -32,4 +33,9 @@ const allReducers = combineReducers({
   songList: songListReducer,
   selectedSong: selectSongReducer,
 });
+
+
 export default allReducers;
+
+
+
